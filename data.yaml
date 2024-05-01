@@ -1,0 +1,32 @@
+#path: ../datasets/cars_v2  # dataset root dir
+#train: ../datasets/train/images
+#val: ../datasets/valid/images
+#test: ../datasets/test/images
+
+path: C:\Users\imuyo\Desktop\my\AIGC\wash_data\data\dataset_yolov8
+test: images/test
+train: images/train
+val: images/val
+
+nc: 7
+#names: ['mask', 'no-mask']
+
+names:
+  0: hat
+  1: gloves
+  2: eye_protector
+  3: shoes
+  4: clothes
+  5: mask
+  6: wash_hands
+
+roboflow:
+  workspace: joseph-nelson
+  project: mask-wearing
+  version: 4
+  license: Public Domain
+  url: https://universe.roboflow.com/joseph-nelson/mask-wearing/dataset/4
+
+
+
+

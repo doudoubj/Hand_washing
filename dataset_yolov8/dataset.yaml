@@ -1,0 +1,13 @@
+download: ''
+names:
+  0: hat
+  1: gloves
+  2: eye_protector
+  3: shoes
+  4: clothes
+  5: mask
+  6: wash_hands
+path: C:\Users\imuyo\Desktop\my\AIGC\wash_data\data\dataset_yolov8
+test: images/test
+train: images/train
+val: images/val
